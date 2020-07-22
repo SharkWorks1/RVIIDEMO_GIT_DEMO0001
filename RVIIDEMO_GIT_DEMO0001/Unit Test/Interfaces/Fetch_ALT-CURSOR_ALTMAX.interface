@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 22, 2020 1:54:39 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/Fetch_ALT-CURSOR_ALTMAX.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTEMP.listructure#Unit%20Test/Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTEMP.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTEMP.listructure#ALTEMP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTEMP.listructure#ALTEMP.ALTEMP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTLAST.listructure#Unit%20Test/Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTLAST.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTLAST.listructure#ALTLAST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTLAST.listructure#ALTLAST.ALTLAST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTFIRST.listructure#Unit%20Test/Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTFIRST.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTFIRST.listructure#ALTFIRST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTFIRST.listructure#ALTFIRST.ALTFIRST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTMID.listructure#Unit%20Test/Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTMID.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTMID.listructure#ALTMID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTMID.listructure#ALTMID.ALTMID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTYTD.listructure#Unit%20Test/Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTYTD.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTYTD.listructure#ALTYTD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTYTD.listructure#ALTYTD.ALTYTD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTMAX.listructure#Unit%20Test/Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTMAX.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTMAX.listructure#ALTMAX">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTMAX.listructure#ALTMAX.ALTMAX">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

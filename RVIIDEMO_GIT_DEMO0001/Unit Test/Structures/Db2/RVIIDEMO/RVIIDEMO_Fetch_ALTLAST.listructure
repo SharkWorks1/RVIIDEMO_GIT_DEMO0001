@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 22, 2020 1:54:39 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/Db2/RVIIDEMO/RVIIDEMO_Fetch_ALTLAST.listructure">
+  <listructure:struct id="ALTLAST" name="ALTLAST">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">15</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">15</properties:property>
+    </properties:properties>
+    <listructure:string id="ALTLAST.ALTLAST" length="15" name="ALTLAST">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(15)</properties:property>
+        <properties:property name="displayLength" type="number">15</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(15)</properties:property>
+        <properties:property name="storageLength" type="number">15</properties:property>
+        <properties:property name="sqltype" type="number">452</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>
